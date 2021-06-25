@@ -1,0 +1,17 @@
+{
+  "name": "tailwindtemp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/forms": "^0.3.3",
+    "express": "^4.17.1",
+    "tailwindcss": "^2.2.2"
+  }
+}
